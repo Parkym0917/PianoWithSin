@@ -1,0 +1,523 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1657820653063683, "dur":1410, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820653065104, "dur":70, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1657820653065195, "dur":25, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1657820653065222, "dur":282, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1657820653065538, "dur":491, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820653066029, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820654563667, "dur":44, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820654563711, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820654563732, "dur":83, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820654563815, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820654563827, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820654563829, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820654563836, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820654563838, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820654563844, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820654563845, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820654563852, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820654563853, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820654563860, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820654563867, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820654563884, "dur":6300, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1657820653066409, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820653066409, "dur":8188, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820653074608, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657820653074613, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820653102329, "dur":4600, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657820653106933, "dur":6822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657820653113759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820653135233, "dur":44561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1657820653179796, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1657820653179914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820653180098, "dur":338694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1657820653518890, "dur":193439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano.exe" }}
+,{ "pid":12345, "tid":1, "ts":1657820653712333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820653712339, "dur":3549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano.exe" }}
+,{ "pid":12345, "tid":1, "ts":1657820653715984, "dur":2947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653718933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820653832631, "dur":5254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653838097, "dur":557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653838656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820653838661, "dur":3523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653842353, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653842884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820653842889, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653845237, "dur":2460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653847699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820653847704, "dur":4133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653852107, "dur":576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653852705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820653852710, "dur":2375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653855200, "dur":95321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653950524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820653950529, "dur":2579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653953276, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653953562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820653953567, "dur":3359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653957188, "dur":610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653957800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820653957805, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653960139, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653960522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820653960527, "dur":2258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653962891, "dur":36373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820653999268, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820653999275, "dur":2565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654001989, "dur":20244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654022237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820654022243, "dur":3269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654025681, "dur":26878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654052563, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820654052570, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654055065, "dur":18950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654074018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820654074023, "dur":2263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654076398, "dur":49111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654125513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820654125520, "dur":6052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654131683, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654131968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820654131974, "dur":4931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654137026, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654137554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820654137560, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654139728, "dur":19044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654158774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820654158778, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654161038, "dur":20446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654181486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820654181491, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654184097, "dur":41646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654225746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820654225752, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654227622, "dur":24369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654251995, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820654252001, "dur":293244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657820654545577, "dur":2666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1657820654548247, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820654548253, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1657820654550242, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1657820654550341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657820654550370, "dur":4150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1657820654554621, "dur":9027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657820653066638, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657820653066639, "dur":7974, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657820653074614, "dur":22720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1657820653097338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657820653168359, "dur":12408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1657820653191914, "dur":533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1657820653192451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657820653205114, "dur":90939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1657820653309151, "dur":7627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1657820653316782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657820653316789, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1657820653318798, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1657820653318996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657820653319001, "dur":16443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1657820653335555, "dur":1202715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657820654538274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657820654538279, "dur":23166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657820654561542, "dur":2200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653066485, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653066486, "dur":8183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653074669, "dur":12026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1657820653086721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653168437, "dur":12284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1657820653191669, "dur":104278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1657820653295951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653295957, "dur":15292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1657820653311352, "dur":6854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1657820653318210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653318216, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1657820653320259, "dur":377795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653698057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653712715, "dur":119515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653832880, "dur":825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653833708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653833822, "dur":1927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653835881, "dur":571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653836455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653836461, "dur":2402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653839423, "dur":1257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653840682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653840686, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653842793, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653843127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653843131, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653845757, "dur":1420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653847180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653847187, "dur":2928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653850298, "dur":716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653851017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653851021, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653853668, "dur":70131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653923803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653923810, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653925837, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653926126, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653926131, "dur":1563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653927847, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653928253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653928258, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653930017, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653930380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653930385, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653932291, "dur":794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653933088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653933093, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653934681, "dur":553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653935236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653935240, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653937118, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653937584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653937589, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653939718, "dur":792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653940513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653940519, "dur":2212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653942846, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653943200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653943205, "dur":2060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653945433, "dur":634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653946070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653946076, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653948282, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653948568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653948573, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653951668, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653952124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653952128, "dur":3023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653955434, "dur":736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653956174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653956180, "dur":3076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653959453, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653959829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820653959835, "dur":2209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820653962197, "dur":66701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654028902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820654028909, "dur":3104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654032142, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654032533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820654032539, "dur":3463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654036113, "dur":19331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654055447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820654055452, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654057700, "dur":47383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654105086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820654105091, "dur":3691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654108902, "dur":27315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654136219, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820654136224, "dur":2619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654138973, "dur":19595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654158570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820654158575, "dur":2457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654161198, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654161515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820654161520, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654163209, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654163476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820654163481, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654165114, "dur":19939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654185057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820654185063, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654187033, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654187282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820654187287, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654189218, "dur":21501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654210723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820654210729, "dur":1803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654212621, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654212873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820654212879, "dur":1979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654214956, "dur":28178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654243138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820654243145, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657820654246627, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1657820654246887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820654358502, "dur":185665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1657820654544296, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1657820654544464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820654544602, "dur":3894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1657820654548619, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1657820654548941, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820654548957, "dur":1872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1657820654551071, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1657820654551306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657820654551310, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1657820654553094, "dur":10555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653066675, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653066675, "dur":7967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653074642, "dur":10972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1657820653085619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653158603, "dur":21670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1657820653180394, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1657820653180503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653204452, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1657820653207820, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1657820653207931, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653309246, "dur":3730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1657820653313078, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1657820653313191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653313197, "dur":400660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1657820653714180, "dur":4351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653718535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653832256, "dur":5655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653838164, "dur":1205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653839392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653839407, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653842635, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653843005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653843009, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653845416, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653845906, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653845912, "dur":1927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653848032, "dur":792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653848827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653848833, "dur":2153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653851422, "dur":763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653852187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653852191, "dur":2045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653854365, "dur":70446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653924815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653924820, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653926765, "dur":853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653927621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653927626, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653929767, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653930101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653930106, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653931826, "dur":532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653932361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653932366, "dur":1869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653934364, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653934667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653934672, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653936514, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653936818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653936823, "dur":1871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653938808, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653939102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653939107, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653941599, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653941892, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653941898, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653943693, "dur":844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653944540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653944546, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653947033, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653947307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653947388, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653949830, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653950286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653950292, "dur":2718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653953140, "dur":554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653953696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653953700, "dur":3918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653957822, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653958266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653958270, "dur":2792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653961185, "dur":542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653961729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820653961734, "dur":1699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820653963536, "dur":48096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654011636, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820654011642, "dur":3670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654015608, "dur":39385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654054996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820654055002, "dur":1964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654057073, "dur":16824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654073901, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820654073908, "dur":2485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654076539, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654076819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820654076825, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654078655, "dur":1187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654079845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820654079874, "dur":3066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654083065, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654083381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820654083387, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654085424, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654085716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820654085722, "dur":2611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654088438, "dur":16019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654104462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820654104468, "dur":2623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654107194, "dur":28949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654136146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820654136152, "dur":2698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654138977, "dur":19866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654158846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820654158874, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654161346, "dur":20011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654181361, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820654181394, "dur":2300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654183789, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654184047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820654184053, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654186094, "dur":20587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654206684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820654206689, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654208978, "dur":20274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654229255, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820654229272, "dur":7033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654236520, "dur":16547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654253070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820654253075, "dur":292356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657820654545585, "dur":1298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1657820654546887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820654546892, "dur":3286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1657820654550277, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1657820654550589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657820654550593, "dur":2135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1657820654552917, "dur":10717, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820653066715, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820653066716, "dur":7927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820653074643, "dur":1009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1657820653075655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820653168566, "dur":36863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1657820653205553, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1657820653205671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820653205702, "dur":330351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1657820653536151, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1657820653536250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820653712393, "dur":272694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1657820653985189, "dur":39321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654024514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820654024521, "dur":5122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654030625, "dur":22445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654053073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820654053078, "dur":3043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654056238, "dur":18530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654074910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820654074916, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654076826, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654077183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820654077188, "dur":2404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654079698, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654080000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820654080004, "dur":3484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654083629, "dur":817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654084449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820654084455, "dur":4474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654089031, "dur":40594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654129629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820654129636, "dur":6258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654136009, "dur":19022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654155035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820654155041, "dur":2961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654158111, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654158453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820654158459, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654161022, "dur":26615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654187640, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820654187644, "dur":2410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654190146, "dur":16532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654206682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820654206689, "dur":2827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654209607, "dur":20645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654230256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820654230262, "dur":8132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654238487, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654238754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820654238760, "dur":5765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654244616, "dur":10575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654255194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657820654542070, "dur":21402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657820654563594, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1657820654563597, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820653066757, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820653066758, "dur":7866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820653074625, "dur":505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1657820653075134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820653178432, "dur":26380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1657820653204911, "dur":9160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1657820653214076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820653214083, "dur":96288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1657820653310471, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1657820653310575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820653310662, "dur":7581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1657820653318374, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1657820653318489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820653318494, "dur":7315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1657820653325908, "dur":72332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653398244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820653433260, "dur":4109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653437462, "dur":206811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1657820653644276, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820653644281, "dur":71532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1657820653715925, "dur":2612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653718540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820653831506, "dur":4359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653836143, "dur":516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653836661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820653836666, "dur":3629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653840678, "dur":495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653841175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820653841180, "dur":2500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653843929, "dur":806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653844738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820653844743, "dur":2974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653847945, "dur":709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653848657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820653848662, "dur":1867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653850828, "dur":1040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653851871, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820653851875, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653854284, "dur":99502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653953789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820653953792, "dur":3793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653957818, "dur":587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653958407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820653958412, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820653961371, "dur":42651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654004025, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820654004031, "dur":5080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654009263, "dur":30403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654039670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820654039677, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654042062, "dur":22883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654064950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820654064956, "dur":5130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654070204, "dur":20452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654090660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820654090666, "dur":3428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654094272, "dur":20971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654115247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820654115253, "dur":4020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654119382, "dur":18279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654137664, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820654137668, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654139798, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654140166, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820654140172, "dur":2006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654142281, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654142625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820654142631, "dur":5180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654147914, "dur":21124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654169042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820654169049, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654171707, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654172090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820654172095, "dur":2494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654174698, "dur":18364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654193066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820654193072, "dur":3292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654196457, "dur":1229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654197715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820654197722, "dur":3737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654201583, "dur":18197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654219783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820654219790, "dur":3027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654222906, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654223235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820654223240, "dur":2562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654225950, "dur":82065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654308018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820654308024, "dur":237736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657820654545884, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Workspace/Unity/PianoWithSin/Piano_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1657820654546076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657820654546082, "dur":5470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Workspace/Unity/PianoWithSin/Piano_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1657820654551782, "dur":11880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657820654576541, "dur":1916, "ph":"X", "name": "ProfilerWriteOutput" }
+,
